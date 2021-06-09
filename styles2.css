@@ -1,0 +1,40 @@
+body { 
+    background-color: rgba(255, 68, 0, 0.473);
+    color: whitesmoke;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.large {
+    font-size: x-large;
+}
+
+.box-1 {
+    border: 4px orange solid;
+    border-radius: 15px;
+    border-style: dotted;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box-2 {
+    border: 4px rgba(255, 81, 0, 0.267) solid;
+    border-radius: 15px;
+    border-style: dotted;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box-3 {
+    border: 4px rgba(189, 72, 18, 0.466) solid;
+    border-radius: 15px;
+    border-style: dotted;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 22px;
+    padding-left: 22px; 
+
+    padding: 20px 22px;
+
+    margin: 10px;
+}
