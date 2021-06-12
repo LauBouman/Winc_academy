@@ -1,0 +1,71 @@
+<!doctype contact.html>
+<html>
+
+<head>
+    <title>Contact</title>
+</head>
+
+<body>
+    <main>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label> Your name</label><br>
+                <input type="text" id="text" name="name" />
+            </p>
+            <p> <label> Your e-mail </label><br>
+                <input type="email" id="e-mail" name="email" />
+            </p>
+            <p> <label> Phone number </label><br>
+                <input type="tel" id="tel" name="tel" />
+            </p>
+            <p> <label> Age </label><br>
+                <input type="number" id="age" name="age" />
+            </p>
+            <p> <label> Date of birth </label><br>
+                <input type="date" id="date" name="date" />
+            </p>
+            <p><label>Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </p>
+            <p> <label> Favorite cousine</label><br>
+                <input type="checkbox" id="food1" name="french" value="french" />
+                <label for="food1"> French</label><br>
+                <input type="checkbox" id="food2" name="italian" value="italian" />
+                <label for="food2"> Italian </label><br>
+                <input type="checkbox" id="food3" name="spanish" value="spanish" />
+                <label for="food3"> Spanish </label><br>
+                <input type="checkbox" id="food4" name="arabic" value="arabic" />
+                <label for="food4"> Arabic </label><br>
+            </p>
+            <p> <label>Favorite color</label><br>
+                <input type="color" id="color" name="color" />
+            </p>
+            <p><label>Biography</label><br>
+                <textarea></textarea>
+            </p>
+            <p> <label for="myfile">Select a file:</label><br>
+                <input type="file" id="myfile" name="myfile">
+            </p>
+            <p> <label for="homepage">Add your homepage:</label><br>
+                <input type="url" id="homepage" name="homepage">
+            </p>
+            <p> <button type="reset"> reset </button></p>
+            <p> <button type="submit"> send </button></p>
+
+
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            <a href="index.html"> Go back </a>
+        </p>
+    </footer>
+</body>
+
+</html>
